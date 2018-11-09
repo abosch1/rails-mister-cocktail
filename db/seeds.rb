@@ -25,7 +25,7 @@ Ingredient.create(name: "ice cubes")
 
 20.times do
   cocktail = Cocktail.create(
-    name: Faker::Pokemon.name
+    name: Faker::Food.fruits
   )
  3.times do
     Dose.create(
